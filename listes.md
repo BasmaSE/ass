@@ -233,8 +233,8 @@ def argmax(liste):
 print(argmax([1, 6, 2, 4]))
 ```
 ````
+```l =[5,12,48,-2,0,-48,5,12]**
 
-**l =[5,12,48,-2,0,-48,5,12]**
 def posmax(l):
     m, k=l[0],0
     for i, e in enumerate(l):
@@ -245,6 +245,8 @@ def posmax(l):
    
    
 print("Max est ", posmax(l))
+```
+
 
 ## Manipulations de listes
 
